@@ -1,6 +1,7 @@
 alpine
 nginx
 yaming116/sherpa-onnx-asr-tiny:latest
+binaryify/netease_cloud_music_api
 
 #nginx
 #支持私库
