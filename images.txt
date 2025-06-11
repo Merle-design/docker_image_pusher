@@ -1,3 +1,5 @@
+alpine
+nginx
 yaming116/sherpa-onnx-asr-tiny:latest
 
 #nginx
