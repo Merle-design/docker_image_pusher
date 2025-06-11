@@ -1,6 +1,17 @@
 alpine
 nginx
+
+yaming116/fun-asr:latest
+
+# 完整版， 目前完整版占用 1g 内存
+yaming116/sherpa-onnx-asr:latest
+# 目前zipformer 和 latest 模型版本一致，sherpa-onnx 推荐实用 paraformer 模型，目前为了保持稳定暂时latest不修改
+yaming116/sherpa-onnx-asr:zipformer-2024-7-5
+# paraformer 非流式识别模式，效果更好
+yaming116/sherpa-onnx-asr:paraformer-2024-7-5
+# 低内存版本
 yaming116/sherpa-onnx-asr-tiny:latest
+
 binaryify/netease_cloud_music_api
 
 #nginx
