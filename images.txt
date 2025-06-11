@@ -11,12 +11,14 @@ yaming116/sherpa-onnx-asr:zipformer-2024-7-5
 yaming116/sherpa-onnx-asr:paraformer-2024-7-5
 # 低内存版本
 yaming116/sherpa-onnx-asr-tiny:latest
+#本来要在docker执行如下动作的
+# docker pull yaming116/sherpa-onnx-asr-tiny:latest
 
 binaryify/netease_cloud_music_api
 
 #nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
+xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
